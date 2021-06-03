@@ -1,47 +1,12 @@
-
-.logo{
-    width: 4rem;
-    height: 3rem;
-
-}
-.indentification{
-    color: blue;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0rem;
-    margin-bottom: 12px;
-
-
-
+a{
+    cursor: pointer;
+    
 }
 nav{
-    display: block;
-    
+    cursor: pointer;
+    display:flex;
+    justify-content: flex-end;
 }
 ul{
     list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
- 
-}
-li{
-    
-    padding: 10px;
-    
-    
-    
-    
-    
-}
-figure{
-    background-color: #F2F2F2;
-}
-aside{
-    background-color: #F2F2F2;
-}
-footer{
-    background-color:#F2F2F2 ;
 }
