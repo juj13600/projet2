@@ -1,7 +1,47 @@
-a{
-    cursor: pointer;
+
+.logo{
+    width: 4rem;
+    height: 3rem;
 
 }
-button{
-    cursor: pointer;
+.indentification{
+    color: blue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0rem;
+    margin-bottom: 12px;
+
+
+
+}
+nav{
+    display: block;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+li{
+    
+    padding: 10px;
+    
+    
+    
+    
+    
+}
+figure{
+    background-color: #F2F2F2;
+}
+aside{
+    background-color: #F2F2F2;
+}
+footer{
+    background-color:#F2F2F2 ;
 }
