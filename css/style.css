@@ -59,8 +59,7 @@ nav ul li a {
 }
 nav ul li a:hover{ 
     cursor: pointer;
-    box-shadow:5px -20px  red;
-    color:red;
+    box-shadow:10px  red;
   }
 .toto:hover{
     color:green;
@@ -105,7 +104,20 @@ nav ul li a:hover{
 /*Les couleurs de la charte sont le bleu #0065FC, et sa version plus
  claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.*/
 
-
+.bloc1{
+    width: 60%;
+    height: 350px;
+    background-color: #F2F2F2;
+    border-radius: 2rem;
+    
+}
+.bloc2{
+    width: auto;
+    height: 650px;
+    background-color:#F2F2F2 ;
+    border-radius: 2rem;
+    
+}
 
 
 
@@ -147,10 +159,33 @@ nav ul li a:hover{
     margin: auto;
     align-content: center;
 
-    
+
 }
+
+
+
 .photo_bloc1{
     display: flex;
     align-content: space-between;
+
+}
+#bloc2{
+    cursor: pointer;
+    border-radius: 2rem;
+    width:250px;
+    height: 200px;
+    margin: auto;
+    align-content: center;
+
+
+}
+#bloc3{
+    cursor: pointer;
+    border-radius: 2rem;
+    width:250px;
+    height: 200px;
+    margin: auto;
+    align-content: center;
+
 
 }
