@@ -8,6 +8,9 @@ a{
 /*Les couleurs de la charte sont le bleu #0065FC, et sa version plus
  claire #DEEBFF ainsi que le gris pour le fond #F2F2F2.*/
 }
+a:hover{
+    color: #0065FC;
+}
 h1{
     font-size: 19px;
 
@@ -109,46 +112,20 @@ nav ul li a:hover{
     height: 350px;
     background-color: #F2F2F2;
     border-radius: 2rem;
+   
+    
     
 }
 .bloc2{
     width: auto;
     height: 650px;
     background-color:#F2F2F2 ;
-    border-radius: 2rem;
+    border-radius: 2rem;  
     
 }
-
-
-
-
-
-
-
-.hebergement_Marseille{
-    width: 100%;
-    display: flex;
-    background-color:#F2F2F2 ;
-    border-radius: 2rem;
-    height: 650px;
-    margin-right: 20px;
-    
-   
+.centre{
+    display:flex
 }
-.photo_bloc1{
-    width:60%;
-    height: 80px;
-    box-sizing: border-box;
-    color: black;
-}
-.hebergement_populaire{
-    width: 40%;
-    background-color: #DEEBFF;
-    border-radius: 2rem;
-    margin-left: 20px;
-    height: 650px;
-}
-
 
     
 #bloc1{
@@ -157,25 +134,21 @@ nav ul li a:hover{
     width:250px;
     height: 200px;
     margin: auto;
-    align-content: center;
+    
+    
 
 
 }
 
-
-
-.photo_bloc1{
-    display: flex;
-    align-content: space-between;
-
-}
 #bloc2{
     cursor: pointer;
     border-radius: 2rem;
     width:250px;
     height: 200px;
     margin: auto;
-    align-content: center;
+    
+    
+    
 
 
 }
@@ -185,7 +158,11 @@ nav ul li a:hover{
     width:250px;
     height: 200px;
     margin: auto;
-    align-content: center;
+    
 
 
+}
+
+footer{
+    background-color: #F2F2F2;
 }
